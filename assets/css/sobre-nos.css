@@ -1,0 +1,30 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+}
+
+.img img{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+}
+
+.inform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+@media only screen and (max-width: 457px) {
+    
+    .navbar-nav {
+        margin-top: 0;
+    }
+}

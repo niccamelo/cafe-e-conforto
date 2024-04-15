@@ -1,0 +1,60 @@
+body {
+    background-image: url('../img/papel\ de\ fundo.jpg');
+}
+
+.menuPrincipal {
+    display: flex;
+    width: 413.5px;
+    height: 100px;
+    background: #D97D5B;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    background: #D97D5B;
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+    width: 600px;
+    height: 700px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.localizacao {
+    margin: 2rem;
+}
+@media only screen and (max-width: 457px) {
+    .navbar-nav {
+        margin-top: 0;
+    }
+    .card-principal {
+        display: flex;
+        align-items: center;
+        height: 620px;
+    }
+    .card {
+        margin: 2rem;
+        width: 350px;
+        height: 500px;
+        
+    }
+
+}

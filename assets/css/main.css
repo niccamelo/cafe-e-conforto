@@ -1,0 +1,83 @@
+main {
+    width: 100%;
+    margin: 0;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 25px;
+    font-family: "Homemade Apple", cursive;
+    font-weight: 300;
+    color: #401D10;
+    background: #D97D5B;
+    height: 80px;
+}
+
+.img-fundo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-fundo img {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+}
+
+
+.button-reserve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    margin-top: 2rem;
+    background: #D97D5B;
+    border-radius: 20px;
+    box-shadow: 9px 7px 5px rgb(50 50 50 / 26%);
+
+}
+.button-reserve a {
+    text-align: center;
+    text-decoration: none;
+    color: #401D10;
+    font-size: 23px;
+    width: 18vw;
+}
+.card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 897px) {
+    .menu h1 {
+        font-size: 15px;
+    }
+
+    .button-reserve {
+        width: 300px;
+        height: 80px;    
+        margin-bottom: 1rem;
+        margin: 0;
+    }
+    .button-reserve a {
+        font-size: 15px;
+        width: 250px;
+    }
+    .card-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+}
